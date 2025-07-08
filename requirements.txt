@@ -1,0 +1,4 @@
+agno
+streamlit
+google-genai
+mcp
