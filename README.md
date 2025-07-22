@@ -43,19 +43,18 @@ cd spotify-mcp
 
 Make sure you have Node.js installed (>=18) since this repo uses npx.
 
-### 3. Run the Spotify MCP Server
+### 3. Run the Spotify MCP Server (Only for first time)
 From inside the cloned repo directory:
 
 ```bash
 npx @modelcontextprotocol/inspector uv --directory . run spotify-mcp
 ```
 
-This will start the Spotify MCP server and print an authentication link in the terminal.
+This will start the MCP server inspector.Press the connect button,then go to tools and then press list tools. This will open up a set of tools.Press any tool - for this case, let's consider using the tool 'SpotifyQueue'. Here, there are 2 actions - add or get. Type get and press run tool. This will open the authentication window for spotify.
 
-readme_md_continued = """
+
 ### 4. Authenticate Your Spotify Account
 
-- Click the **authentication link** shown in the terminal after running the above command.
 - It will redirect you to Spotify for login/authorization.
 - Tokens will be saved locally and reused for future sessions.
 
@@ -120,6 +119,9 @@ Here are some things you can say to the agent:
 
 ---
 
+## Preview
+
+  ![Alt text](img/Demo.png "Preview of the working")
 ## License
 
 This project is open-sourced under the Apache-2.0 License.
